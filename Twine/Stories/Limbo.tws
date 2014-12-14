@@ -5,7 +5,7 @@ VE:\u005cGames A\u005cTwine\u005cStories\u005cLimbo.html
 p2
 sS'saveDestination'
 p3
-VE:\u005cGames A\u005cTwine\u005cStories\u005cLimbo.tws
+VC:\u005cUsers\u005cKHugh\u005cDocuments\u005cGitHub\u005cTwine-Robin\u005cTwine\u005cStories\u005cLimbo.tws
 p4
 sS'target'
 p5
@@ -1582,8 +1582,8 @@ g12
 I00
 sg13
 (lp487
-F803.6666666666678
-aF1853.666666666667
+F772.000000000001
+aF1985.3333333333326
 asg15
 (itiddlywiki
 Tiddler
@@ -2090,7 +2090,7 @@ Tiddler
 p638
 (dp639
 g19
-VYou turn around to see columns of water falling from the darkness above and being lost into the darkness below. They are evenly spaced, forming a cage of water. But a cage for what?\u000a\u000a"We need go." Robins says, getting up. "The stairs continue downwards on the other side."\u000a\u000aYou look over your shoulder at the stairwell behind you. From here you can see it as a cylindar extending into the ceiling, and apparently down into the ground as well.\u000a\u000a"I should be able to explain this to you better if we keep going."\u000a\u000aRobins clothes billow back and forth, as if wind carried them in either direction; yet you feel nothing.\u000a\u000a"Please?" Robin walks slowly backwards to the other side of the stairwell.\u000a\u000a[[Follow Robin down|Orb]]
+VYou turn around to see columns of water falling from the darkness above and being lost into the darkness below. They are evenly spaced, forming a cage of water. But a cage for what?\u000a\u000a"We need go." Robins says, getting up. "The stairs continue downwards on the other side. We can't let the Monster see us."\u000a\u000aYou look over your shoulder at the stairwell behind you. From here you can see it as a cylindar extending into the ceiling, and apparently down into the ground as well.\u000a\u000a"I should be able to explain this to you better if we keep going."\u000a\u000aRobins clothes billow back and forth, as if wind carried them in either direction, yet you feel nothing.\u000a\u000a"Please?" Robin walks slowly backwards to the other side of the stairwell.\u000a\u000a[[Follow Robin down|Rules]]
 p640
 sg21
 VTheMonster
@@ -2100,9 +2100,9 @@ g24
 ((I2014
 I12
 I14
-I14
-I57
-I11
+I18
+I0
+I28
 I6
 I348
 I0
@@ -2132,15 +2132,15 @@ g12
 I00
 sg13
 (lp652
-F773.3333333333338
-aF3692.3333333333353
+F771.6666666666678
+aF3720.66666666667
 asg15
 (itiddlywiki
 Tiddler
 p653
 (dp654
 g19
-V"Well? What do you think?" Robin takes a seat behind the orb.\u000a\u000a[["What is this place?"|whatIsThisPlace]]\u000a[["What is the Monster?"|whatIsTheMonster]]\u000a[["Why were you so afraid of the Monster?|whyWereYouAfraid]]\u000a[["Who are you?"|whoAreYou]]
+V"Well? What do you think?" Robin sits cross-legged on the ground.\u000a\u000a[["What is this place?"|whatIsThisPlace]]\u000a[["What is the Monster?"|whatIsTheMonster]]\u000a[["Why were you so afraid of the Monster?|whyWereYouAfraid]]\u000a[["Who are you?"|whoAreYou]]
 p655
 sg21
 VOneQuestion
@@ -2150,9 +2150,9 @@ g24
 ((I2014
 I12
 I14
-I15
-I9
-I28
+I17
+I55
+I48
 I6
 I348
 I0
@@ -2190,18 +2190,18 @@ Tiddler
 p668
 (dp669
 g19
-V
+VYou follow Robin to down the staircase. You walk slowly next to him- a stark contrast to the rush he seemed to be in before.\u000a\u000aAfter a few minutes of silent descent, Robin speaks in a low voice, eyes never leaving the steps at his feet.\u000a\u000a"I know this is all very confusing for you, and I wish I could be more informative." He chooses his words carefully with a decisive pause after each one. "But there are RULES. I can only be here if I follow the rules." He stops and looks at you, his eyes heavy.\u000a\u000a"You understand right? This next part is going to be surprising but I need you not to speak."\u000a\u000aThe staircase ends and lets out into a small square room. The skin over your mouth begins to sting lightly as you feel it peel back.\u000a\u000a[["What's happening!?"|whatsHappening]]\u000a[[What's happening?|theRoom]]
 p670
 sg21
-VOrb
+VRules
 p671
 sg23
 g24
 ((I2014
 I12
 I14
-I14
-I57
+I17
+I44
 I14
 I6
 I348
@@ -2213,25 +2213,56 @@ Rp675
 sg29
 (lp676
 sg31
-g675
-sbsa(dp677
+g24
+((I2014
+I12
+I14
+I14
+I57
+I14
+I6
+I348
+I0
+tp677
+(dp678
+tp679
+Rp680
+sbsa(dp681
 g12
 I00
 sg13
-(lp678
-F841.3333333333343
-aF3873.333333333339
+(lp682
+F839.6666666666682
+aF3901.666666666674
 asg15
 (itiddlywiki
 Tiddler
-p679
-(dp680
+p683
+(dp684
 g19
-g670
+VBy the time you finish your sentence, your lips seal themselves once more.\u000a\u000a"I'm sure you've noticed that things here don't hurt me." He pauses for a moment and looks at the ground "The Monster is different. It's gotten me before and it...hurts. It's the only thing in this Prison that can harm me directly. You noticed saw how I was blown around just by it breathing? Imagine what it would do if we had been face to face."\u000a\u000aRobin stands up and brushes himself off.\u000a\u000a"That's all I can say. I know its cryptic but it's better than nothing, right? Let's go. All that matters is getting you out of here."\u000a\u000a[[filler|afterQuestion]]
+p685
 sg21
 VwhyWereYouAfraid
-p681
+p686
 sg23
+g24
+((I2014
+I12
+I14
+I18
+I22
+I47
+I6
+I348
+I0
+tp687
+(dp688
+tp689
+Rp690
+sg29
+(lp691
+sg31
 g24
 ((I2014
 I12
@@ -2242,75 +2273,36 @@ I11
 I6
 I348
 I0
-tp682
-(dp683
-tp684
-Rp685
-sg29
-(lp686
-sg31
-g685
-sbsa(dp687
-g12
-I00
-sg13
-(lp688
-F633.3333333333344
-aF3871.6666666666674
-asg15
-(itiddlywiki
-Tiddler
-p689
-(dp690
-g19
-g670
-sg21
-VwhatIsTheMonster
-p691
-sg23
-g24
-((I2014
-I12
-I14
-I15
-I9
-I14
-I6
-I348
-I0
 tp692
 (dp693
 tp694
 Rp695
-sg29
-(lp696
-sg31
-g695
-sbsa(dp697
+sbsa(dp696
 g12
 I00
 sg13
-(lp698
-F420.000000000001
-aF3869.999999999997
+(lp697
+F631.6666666666683
+aF3900.0000000000023
 asg15
 (itiddlywiki
 Tiddler
-p699
-(dp700
+p698
+(dp699
 g19
-g670
+VBy the time you finish your sentence, your lips seal themselves once more.\u000a\u000a"The Monster is an embodiment of a Prisoner's reason for being here. It's the only thing here that can hurt you and there's nothing I can do about that. It's also..." He pauses for a second to stare at the ground.\u000a\u000a"It's also the only thing that can kill me."\u000a\u000aRobin stands up and brushes himself off.\u000a\u000a"That's all I can say. I know its cryptic but it's better than nothing, right? Let's go. All that matters is getting you out of here."\u000a\u000a[[filler|afterQuestion]]
+p700
 sg21
-VwhatIsThisPlace
+VwhatIsTheMonster
 p701
 sg23
 g24
 ((I2014
 I12
 I14
-I15
-I9
-I16
+I18
+I18
+I59
 I6
 I348
 I0
@@ -2321,25 +2313,106 @@ Rp705
 sg29
 (lp706
 sg31
-g705
-sbsa(dp707
+g24
+((I2014
+I12
+I14
+I15
+I9
+I14
+I6
+I348
+I0
+tp707
+(dp708
+tp709
+Rp710
+sbsa(dp711
 g12
 I00
 sg13
-(lp708
-F1065.3333333333344
-aF3873.333333333337
+(lp712
+F420.00000000000074
+aF3901.6666666666647
 asg15
 (itiddlywiki
 Tiddler
-p709
-(dp710
+p713
+(dp714
 g19
-g670
+VBy the time you finish your sentence, your lips seal themselves once more.\u000a\u000a"This is the Prison. People are sent here until they're ready to leave. That's what you're doing. You're moving from place to place getting ready so that hopefully, you can leave."\u000a\u000aRobin stands up and gestures towards the exit\u000a\u000a"That's all I can say. I know its cryptic but it's better than nothing, right? Let's go. All that matters is getting you out of here."\u000a\u000a[[Leave the room|afterQuestion]]
+p715
+sg21
+VwhatIsThisPlace
+p716
+sg23
+g24
+((I2014
+I12
+I14
+I18
+I15
+I32
+I6
+I348
+I0
+tp717
+(dp718
+tp719
+Rp720
+sg29
+(lp721
+sg31
+g24
+((I2014
+I12
+I14
+I15
+I9
+I16
+I6
+I348
+I0
+tp722
+(dp723
+tp724
+Rp725
+sbsa(dp726
+g12
+I00
+sg13
+(lp727
+F1063.6666666666665
+aF3903.3333333333385
+asg15
+(itiddlywiki
+Tiddler
+p728
+(dp729
+g19
+VBy the time you finish your sentence, your lips seal themselves once more.\u000a\u000aRobin smiles for a moment. "Good question. I'm your Warden. I volunteered to try and get you out. That's why things don't hurt you, I mean, except for the Monster; they..." He trails off for a moment. "They hurt me instead. It's okay though. I'm more durable than you are" He chuckles sadly to himself.\u000a\u000a"Anyway, you can thank me later." He taps his lips knowingly.\u000a\u000aRobin stands up and brushes himself off.\u000a\u000a"That's all I can say. I know its cryptic but it's better than nothing, right? Let's go. All that matters is getting you out of here."\u000a\u000a[[filler|afterQuestion]]
+p730
 sg21
 VwhoAreYou
-p711
+p731
 sg23
+g24
+((I2014
+I12
+I14
+I18
+I26
+I31
+I6
+I348
+I0
+tp732
+(dp733
+tp734
+Rp735
+sg29
+(lp736
+sg31
 g24
 ((I2014
 I12
@@ -2350,18 +2423,164 @@ I18
 I6
 I348
 I0
-tp712
-(dp713
-tp714
-Rp715
+tp737
+(dp738
+tp739
+Rp740
+sbsa(dp741
+g12
+I00
+sg13
+(lp742
+F1366.0
+aF3906.333333333333
+asg15
+(itiddlywiki
+Tiddler
+p743
+(dp744
+g19
+V"No!" Robin yells, as the first words leave your mouth.\u000a\u000aBy the time you finish your sentence, your lips seal themselves once more.\u000a\u000a"Why did you speak? This is the only room where we can break the rules, but we can use it only once. You were given the chance to ask a question and you wasted it." He seems calm, but sad.\u000a\u000a"That was a mistake, but it's okay. You can still make it. All that matters is you making it out. Let's go."\u000a\u000aHe leads the way through the exit. Without a glance back.\u000a\u000aYou silently follow\u000a\u000a[[Oops|afterQuestion]]
+p745
+sg21
+VwhatsHappening
+p746
+sg23
+g24
+((I2014
+I12
+I14
+I17
+I51
+I20
+I6
+I348
+I0
+tp747
+(dp748
+tp749
+Rp750
 sg29
-(lp716
+(lp751
 sg31
-g715
+g24
+((I2014
+I12
+I14
+I17
+I44
+I40
+I6
+I348
+I0
+tp752
+(dp753
+tp754
+Rp755
+sbsa(dp756
+g12
+I00
+sg13
+(lp757
+F773.0000000000006
+aF3516.333333333335
+asg15
+(itiddlywiki
+Tiddler
+p758
+(dp759
+g19
+V"Don't worry, don't panic. This room is special. We can break the rules just once and this is our chance." Robin extends a hand towards you as if to tell you to stop.\u000a\u000a"You've been given the opportunity to speak, but you only get one sentence." He wanders around the room as he explains, his fingers graze the walls as he moves.\u000a\u000a"I've been given the opportunity to answer, but only exactly what you ask. Do you understand?"\u000a\u000a[[Nod|OneQuestion]]
+p760
+sg21
+VtheRoom
+p761
+sg23
+g24
+((I2014
+I12
+I14
+I17
+I59
+I54
+I6
+I348
+I0
+tp762
+(dp763
+tp764
+Rp765
+sg29
+(lp766
+sg31
+g24
+((I2014
+I12
+I14
+I17
+I44
+I46
+I6
+I348
+I0
+tp767
+(dp768
+tp769
+Rp770
+sbsa(dp771
+g12
+I01
+sg13
+(lp772
+F828.9999999999999
+aF4333.000000000001
+asg15
+(itiddlywiki
+Tiddler
+p773
+(dp774
+g19
+VWomp Womp
+p775
+sg21
+VafterQuestion
+p776
+sg23
+g24
+((I2014
+I12
+I14
+I18
+I26
+I46
+I6
+I348
+I0
+tp777
+(dp778
+tp779
+Rp780
+sg29
+(lp781
+sg31
+g24
+((I2014
+I12
+I14
+I17
+I51
+I18
+I6
+I348
+I0
+tp782
+(dp783
+tp784
+Rp785
 sbsasS'scale'
-p717
+p786
 F0.6000000000000001
 sS'snapping'
-p718
+p787
 I00
 ss.

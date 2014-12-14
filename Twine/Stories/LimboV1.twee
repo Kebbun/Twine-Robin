@@ -1,0 +1,322 @@
+﻿:: Start
+"...Hey."
+
+You recognise that voice. Or do you? You're head's foggy; it's hard to remember.
+
+"...Hello?."
+
+**********
+
+[[Reply to the voice|Reply]]
+
+
+:: Reply
+<<silently>>
+<<set $robin_injuries = 0>>
+<<set $robin_injured_impale = "no">>
+<<set $have_cloak = 0>>
+<<endsilently>>
+No sound comes out. 
+
+"Are you awake yet? You usually open your eyes now... Did something go wrong this time?"
+
+**********
+
+[[Open your eyes]]
+
+
+:: Open your eyes
+This is more difficult than you expected. 
+
+"Oh! There you go. Keep it up."
+
+**********
+
+[[Keep trying]]
+
+
+:: Keep trying
+Who knew eyelids could be so heavy?
+
+"Almost there. Take your time, we're safe again. I know this is tough. I'm here though. I'm not going anywhere until you're ready to go. C'mon now. One more push."
+
+**********
+
+[[One more push]]
+
+
+:: One more push
+"Ah, there you go. Welcome back. I guess you don't...hmm...Nevermind. Anyway, let's get you up."
+
+Oh, you're lying down. How did you not realise that? Oh well. At least you can see now. 
+
+**********
+
+[[Get up]]
+
+
+:: Get up
+"There you go, nice and slow. Do you remember me?"
+
+Do you? Not really. It might be awkward to tell him that though. Still, if he wanted to harm you, he'd have done so, right?
+
+**********
+
+[["Yeah, I remember you"|speak]]
+[["No, I don't remember you"|speak]]
+[["Where am I?"|speak]]
+[["Who are you?"|speak]]
+
+
+:: speak
+No words come out.
+
+"Oh, don't try to speak. It's not going to work. It never does. Good job on the sitting up though! You've got that going for you." 
+
+He smiles at you.
+
+Strange. This feels weird. Like you've been eating peanutbutter all day without drinking any water. Instinctively your hands move towards your mouth.
+
+"Wait! Stop! Don't...Don't bother. I know it's weird, but just...Just trust me. Sometimes it's nicer not knowing the details. Come on, let's get going. You seem well. Better than usual, even! Can you walk?"
+
+**********
+
+[[Touch your mouth]]
+[[Let's get going]]
+
+
+:: StoryTitle
+Limbo
+
+
+:: Touch your mouth
+Nothing. Just skin. Like you never had a mouth. Your jaw muscles are still there, but... 
+No mouth, 
+no lips... 
+Nothing.
+
+"I...I'm sorry. I tried to stop you this time but it...I...Come on, let's get going."
+
+Your hands drift down to your sides and you hop off of whatever you were sitting on.
+
+**********
+
+[[Time to go|Let's get going]]
+
+
+:: Let's get going
+You seemed to have been sleeping on a stone altar at the top of a steep hill. In hindsight it doesn't look too comfortable. It's a wonder you feel as rested as you do. 
+
+Looking off into the distance you find a thick forest all around the hill you're perched on. The tops of the trees come up close to the top of the hill save for a few of the smallest.
+
+A dirt path leads down the hill. Other sides of the summit are likely too steep to climb down.
+
+"You usually head down that way", the boy offers. "Ready to go?"
+
+**************
+
+[[Head down the path |hillside]]
+[[Check out the edge of the summit|edge]]
+
+
+:: edge
+You walk closer the one of the edges of the summit.
+
+"Wait!", the boy calls to you.  "That way doesn't end well... For either of us. Trust me?". He points towards the dirt path. "Doesn't this way seemn safer?"
+
+Peering over the edge of the summit, you see that the path seems to spiral its way around the hill - at least until the tops of the trees obstruct your vision. The drop off from this point is too high and too steep for you to safely climb down.
+
+[[Try it anyway|hillfalling]]
+[[It's probably safer to head down the path|hillside]]
+
+
+:: hillfalling
+You turn around to face your back to the edge of the summit and slowly lower a foot down into what feels like a stable foothold.
+
+"Please... Please don't." The boy says.
+
+You put your full weight on the foothold.
+
+As the dirt slides out from under you, your chin catches a rock on the summit knocking your head back. Dazed and scrambling to get a handhold on the summit, you feel your hands getting scratched by the rough rocks refusing to save your life.
+
+Unable to get a handhold, you half-fall half-tumble down the side of the hill. Rocks and branches bash your body as you roll. You manage to open your eyes during the tumble just long enough to see yourself speeding towards a sharp branch.
+
+You close your eyes as the branch pierces your chest.
+
+[[This is going to hurt|sharpbranch]]
+
+
+:: sharpbranch
+Opening your eyes after a moment, you realise you're on the summit again. You hear sparse panting off to your right. Turning to see what is making the noise, you see the boy keeled over and holding his chest.
+
+"Please..." He says, between each pain filled pant, "don't do that again"
+
+<<set $robin_injured_impale = "no">>
+<<set $robin_injuries = $robin_injuries +1 >>
+
+[["What just hapened?"|what]]
+[[Silently head down the path|hillside]]
+
+
+:: what
+You rush over to the boy's side and put a hand on his back. You try to speak, but still, nothing comes out.
+
+"You don't...", he pants between phrases. "I'm here to help. I'm trying to keep you safe in the only way that I can."
+
+He looks up at you, his face slowly untwisting itself from a grimace back into the boy that woke you up. 
+
+"I'll be fine. [[Let's just go|hillside]]."
+
+
+:: StoryAuthor
+Kevin Hugh
+
+
+:: hillside
+<<if $robin_injuries > 0>>The boy struggles down the path alongside you for the first few minutes and gradually regains composure. Based on his expression and occasional winces, you can tell he's still hurting.<<else>>"Alright, let's get going!" the boy says, leading the way down the path.<<endif>>
+
+The path is mildly uneven but does not hurt to walk along. 
+
+"You can call me Robin by the way". He stops for a moment and smiles at you. "Don't forget."
+
+You continue down the path until much of the light is obstructed by the canopy now overhead.
+
+Robin speaks to you after some time. "I know you've got questions but... I can't answer them right now. You'll understand soon I promise. Just keep pressing forward. alright?"
+
+After a long silent walk you arrive at the foot of the hill.
+
+The trees here are too dense to make much sense of, but you can make out two pathways leading into the forestry. The left path is wider but the branches from the trees hang lower. The right path is thin, but the taller trees offer more headspace. You likely would have to walk single file down the right path.
+
+"Which way would you like to go?" Robin asks. "They're both pretty bad..." He trails off.
+
+[[Take the left path. Walking side by side is more comfortable, even if you may have to lean over a bit.|leftforestpathconfirm]]
+[[Take the right path. Hunching over is uncomfortable if you have to walk for any real distance. Besides, walking single file isn't so bad.|rightforestpathconfirm]]
+
+
+:: leftforestpathconfirm
+You gesture towards the left path.
+
+"That one?" Robin says. "I don't think we can change our minds. Are you sure?"
+
+[[You bet|leftforestpath]]
+[[Nevermind, let's go right|rightforestpathconfirm]]
+
+
+:: rightforestpathconfirm
+You gesture towards the right path.
+
+"That one?" Robin says. "I don't think we can change our minds. Are you sure?"
+
+[[You bet|rightforestpath]]
+[[Nevermind, let's go left|leftforestpathconfirm]]
+
+
+:: leftforestpath
+You nod and begin down the left path.
+
+Robin walks next to you. The lowest hanging branches fall like beads over the two of you as you continue along the path. 
+
+"In a 'I wish I didn't have vines in my face' kind of way, this is kind of pretty, don't you think?" Robin offers with a smirk.
+
+As you walk, the hanging branches gradually come lower and lower. After fifteen minutes, the vines reach down to your knees. You part the vines in front of you with every step.
+
+[[This can't be right. We should turn back|forestturnback]]
+[[At least it won't get more uncomfortable. Push on|acidbranches]]
+
+
+:: forestturnback
+Turning back you arrive again where the forest paths split.
+
+<<if $have_cloak > 0>>"We've done all we can on the right path...So...Left?"
+[[I guess so. Left it is.|leftforestpath]]
+
+<<else>>"Which one do you want to try?" Robin asks.
+
+[[Take the left path. Walking side by side is more comfortable, even if you may have to lean over a bit.|leftforestpathconfirm]]
+[[Take the right path. Hunching over is uncomfortable if you have to walk for any real distance. Besides, walking single file isn't so bad.|rightforestpathconfirm]]
+<<endif>>
+
+
+:: rightforestpath
+Robin lets you lead the way down the right path. It continues to narrow as you follow it deeper into the woods. After a few minutes you find yourself sidling sideways. Your chest is pressed to the wall of wood in front of you while your back squishes against the trees behind you. 
+
+"This is getting tough." Robin remarks between grunts. He squeezes himself forwards another inch. "I'm not claustrophobic or anything but...maybe this isn't right. I don't quite remember"
+
+[[It might be uncomfortable, but it should let up soon. Let's keep going.|eyeofnight]]
+[[You'd be helpless if something happened while caught in here. Let's head back.|forestturnback]]
+
+
+:: acidbranches
+<<if $have_cloak >0>>YAAAAAAAY YOU HAVE THE CLOAK! TODO
+<<else>>You continue walking through the vines. As you go, you notice the vines are becoming damp. You loko down at your arm now spotted with green liquid.
+
+"Gah! Stop! Stop!" Robin cries as he falls to a knee. He grits his teeth and spits. He grabs some of his sleave and wipes at his arms slowly. Knowingly. "It's acidic. I don't think we can push through this way. It's...It's your call, but there's a better way. Please."
+
+Strange that you don't feel anything...Still, he does seem like he's in pain.
+<<if $robin_injuries > 0>> [[This is just like when you fell. Something is wrong. You should turn back|forestturnback]]
+[[This is just like when you fell. He looks really bad but... If it doesn't hurt you and Robin gave you the choice... Let's push on.|acidbranchesburning]]
+<<else>>[[He doesn't look so good. We should turn back|forestturnback]]
+[[It doesn't hurt you and Robin gave you the choice. Why not push on?|acidbranchesburning]]
+<<endif>>
+<<endif>>
+
+
+:: eyeofnight
+A few more packed minutes later, the forest opens to a clearing. 
+
+"Oh." Robin says as he makes the last constricted step into the clearing. "Oh yeah."
+
+There seems to be some light coming from above the canopy several dozen meters above you. It's not bright enough to be sunlight but it shines like no moonbeam ever could.
+
+The forest forms a perfect circle around a stone wall in the the center of the clearing. As you approach it, the light reflects off of the wall and words appear on the stone.
+
+[[Interesting... Let's get a closer look.|eyeofnightpuzzle]]
+
+"Oh yeah..." Robin scoffs for a moment, then stops himself. "Well?"
+
+[[This seems eery...Let's turn back.|forestturnback]]
+
+
+:: acidbranchesburning
+TODO:
+
+[[go back|forestturnback]]
+
+
+:: eyeofnightpuzzle
+You approach the wall and try to touch it. Robin yelps.
+"Gah! You always do that. It hurts to touch. Please, don't do that again."
+
+You can make out the words written on the wall:
+
+[[''__"No believer will be burned if they impress the eye of n__''|eyeofnightpuzzlehint]][[''__i__''|getcloak]][[''__ght"__''|eyeofnightpuzzlehint]]
+
+"Huh. I wonder what it means." Robin eyes you slowly, then looks at the words again.
+
+[[Interesting... I guess that's all that's here. Let's head back.|forestturnback]]
+
+
+:: eyeofnightpuzzlehint
+Robin stares at you for a moment. "Try reading it slower. Out loud."
+
+[[''__"No believer will be burned if they impress the eye of n__''|eyeofnightpuzzlehint]][[''__i__''|getcloak]][[''__ght"__''|eyeofnightpuzzlehint]]
+
+"Do you want to stay?" He smiles slightly. Sadly.
+
+[[This is wrong. Let's head back|forestturnback]]
+
+
+:: getcloak
+You carefully avoid the other letters and press your fingers against the "i". The stone slides easily backwards and the wall quickly falls breaks apart.
+
+"There you go!" Robin says, jumping. "I knew you could do it. Look! Look in the rubble!" He points at the pile of stone as he plants his feet.
+
+Moving the stones aside, you find a white cloak.
+
+<<set $have_cloak = 1>>
+
+"Here, I'll carry that for you." Robin offers. You hand him the cloak. "I think that's all for this area. Want to [[try the other path?"|forestturnback]]
+
+
+
+

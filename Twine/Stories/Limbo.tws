@@ -1240,22 +1240,22 @@ Tiddler
 p383
 (dp384
 g19
-VYou carefully avoid the other letters and press your fingers against the "i". The stone slides easily backwards and the wall quickly falls apart.\u000a\u000a"There you go!" Robin says, jumping. "I knew you could do it. Look! Look in the rubble!" He points at the pile of stone as he plants his feet.\u000a\u000aMoving the stones aside, you find a white cloak.\u000a\u000a<<set $have_cloak = 1>>\u000a\u000a"Here, I'll carry that for you." Robin offers. You hand him the cloak. "I think that's all for this area. Want to [[try the other path?"|forestturnback]]\u000a\u000a
+VYou carefully avoid the other letters and press your fingers against the "d". The stone slides easily backwards and the wall quickly falls apart.\u000a\u000a"There you go!" Robin says, jumping. "I knew you could do it. Look! Look in the rubble!" He points at the pile of stone as he plants his feet.\u000a\u000aMoving the stones aside, you find a white cloak.\u000a\u000a<<set $have_cloak = 1>>\u000a\u000a"Here, I'll carry that for you." Robin offers. You hand him the cloak. "I think that's all for this area. Want to [[try the other path?"|forestturnback]]\u000a\u000a
 p385
 sg21
 Vgetcloak
 p386
 sg23
 g24
-((I2014
-I9
-I19
-I14
+((I2015
 I1
-I54
-I4
-I262
-I1
+I21
+I22
+I2
+I57
+I2
+I21
+I0
 tp387
 (dp388
 tp389
@@ -1940,21 +1940,21 @@ Tiddler
 p593
 (dp594
 g19
-V"The grey bars don't look very stable. I bet they could be moved, even by a mouse."\u000a\u000aRobin winks at you.\u000a\u000a[[Inspect the North Pillar|NorthPillar]]\u000a[[Inspect the South Pillar|SouthPillar]]\u000a[[Inspect the East Pillar|EastPillar]]\u000a[[Inspect the Weest Pillar|WestPillar]]
+V"The grey bars don't look very stable. I bet they could be moved, even by a mouse."\u000a\u000aRobin winks at you.\u000a\u000a[[Inspect the North Pillar|NorthPillar]]\u000a[[Inspect the South Pillar|SouthPillar]]\u000a[[Inspect the East Pillar|EastPillar]]\u000a[[Inspect the West Pillar|WestPillar]]
 p595
 sg21
 VpillarHintTwo
 p596
 sg23
 g24
-((I2014
-I12
-I11
-I15
-I54
-I44
-I3
-I345
+((I2015
+I1
+I21
+I22
+I2
+I41
+I2
+I21
 I0
 tp597
 (dp598
@@ -2529,7 +2529,7 @@ tp769
 Rp770
 sbsa(dp771
 g12
-I01
+I00
 sg13
 (lp772
 F828.9999999999999

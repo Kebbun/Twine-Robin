@@ -2240,21 +2240,21 @@ Tiddler
 p683
 (dp684
 g19
-VBy the time you finish your sentence, your lips seal themselves once more.\u000a\u000a"I'm sure you've noticed that things here don't hurt me." He pauses for a moment and looks at the ground "The Monster is different. It's gotten me before and it...hurts. It's the only thing in this Prison that can harm me directly. You noticed saw how I was blown around just by it breathing? Imagine what it would do if we had been face to face."\u000a\u000aRobin stands up and brushes himself off.\u000a\u000a"That's all I can say. I know its cryptic but it's better than nothing, right? Let's go. All that matters is getting you out of here."\u000a\u000a[[filler|afterQuestion]]
+VBy the time you finish your sentence, your lips seal themselves once more.\u000a\u000a"I'm sure you've noticed that things here don't hurt me." He pauses for a moment and looks at the ground "The Monster is different. It's gotten me before and it...hurts. It's the only thing in this Prison that can harm me directly. You saw how I was blown around just by it breathing? Imagine what it would do if we had been face to face."\u000a\u000aRobin stands up and brushes himself off.\u000a\u000a"That's all I can say. I know its cryptic but it's better than nothing, right? Let's go. All that matters is getting you out of here."\u000a\u000a[[Leave the room|afterQuestion]]
 p685
 sg21
 VwhyWereYouAfraid
 p686
 sg23
 g24
-((I2014
-I12
-I14
-I18
-I22
-I47
-I6
-I348
+((I2015
+I1
+I29
+I11
+I0
+I48
+I3
+I29
 I0
 tp687
 (dp688
@@ -2290,21 +2290,21 @@ Tiddler
 p698
 (dp699
 g19
-VBy the time you finish your sentence, your lips seal themselves once more.\u000a\u000a"The Monster is an embodiment of a Prisoner's reason for being here. It's the only thing here that can hurt you and there's nothing I can do about that. It's also..." He pauses for a second to stare at the ground.\u000a\u000a"It's also the only thing that can kill me."\u000a\u000aRobin stands up and brushes himself off.\u000a\u000a"That's all I can say. I know its cryptic but it's better than nothing, right? Let's go. All that matters is getting you out of here."\u000a\u000a[[filler|afterQuestion]]
+VBy the time you finish your sentence, your lips seal themselves once more.\u000a\u000a"The Monster is an embodiment of a Prisoner's sentence. It's the only thing here that can hurt you and there's nothing I can do about that. It's also..." He pauses for a second to stare at the ground.\u000a\u000a"It's also the only thing that can kill me."\u000a\u000aRobin stands up and brushes himself off.\u000a\u000a"That's all I can say. I know its cryptic but it's better than nothing, right? Let's go. All that matters is getting you out of here."\u000a\u000a[[Leave the rooom|afterQuestion]]
 p700
 sg21
 VwhatIsTheMonster
 p701
 sg23
 g24
-((I2014
-I12
-I14
-I18
-I18
-I59
-I6
-I348
+((I2015
+I1
+I29
+I11
+I0
+I41
+I3
+I29
 I0
 tp702
 (dp703
@@ -2379,7 +2379,7 @@ tp724
 Rp725
 sbsa(dp726
 g12
-I00
+I01
 sg13
 (lp727
 F1063.6666666666665
@@ -2390,21 +2390,21 @@ Tiddler
 p728
 (dp729
 g19
-VBy the time you finish your sentence, your lips seal themselves once more.\u000a\u000aRobin smiles for a moment. "Good question. I'm your Warden. I volunteered to try and get you out. That's why things don't hurt you, I mean, except for the Monster; they..." He trails off for a moment. "They hurt me instead. It's okay though. I'm more durable than you are" He chuckles sadly to himself.\u000a\u000a"Anyway, you can thank me later." He taps his lips knowingly.\u000a\u000aRobin stands up and brushes himself off.\u000a\u000a"That's all I can say. I know its cryptic but it's better than nothing, right? Let's go. All that matters is getting you out of here."\u000a\u000a[[filler|afterQuestion]]
+VBy the time you finish your sentence, your lips seal themselves once more.\u000a\u000aRobin smiles for a moment. "Good question. I'm your Warden. I volunteered to try and get you out. That's why things don't hurt you, I mean, except for the Monster; they..." He trails off for a moment. "They hurt me instead. It's okay though. I'm more durable than you are" He chuckles sadly to himself.\u000a\u000a"Anyway, you can thank me later." He taps his lips knowingly.\u000a\u000aRobin stands up and brushes himself off.\u000a\u000a"That's all I can say. I know its cryptic but it's better than nothing, right? Let's go. All that matters is getting you out of here."\u000a\u000a[[Leave the room|afterQuestion]]
 p730
 sg21
 VwhoAreYou
 p731
 sg23
 g24
-((I2014
-I12
-I14
-I18
-I26
-I31
-I6
-I348
+((I2015
+I1
+I29
+I11
+I0
+I58
+I3
+I29
 I0
 tp732
 (dp733
